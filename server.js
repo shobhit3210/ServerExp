@@ -30,7 +30,7 @@ app.get('/about',(req,res)=>{
 });
 
 app.get('/projects',(req,res)=>{
-    res.render('project.hbs',{
+    res.render('projects.hbs',{
         projectName:'Bluebird',
         validity:'July 2018'
     });
